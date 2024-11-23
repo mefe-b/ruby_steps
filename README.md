@@ -1,6 +1,7 @@
 # My Ruby Learning Journey 🚀
 
-Welcome to my Ruby adventure! 🎉 Here, I explore the basics of Ruby programming and document my progress as I learn this amazing language.  
+Starting to learn Ruby is truly an exciting adventure! 🎉 This repo is like a diary where I document every step of my journey as I dive into the fundamentals of Ruby programming. In this journey, I’m discovering the simplicity and power Ruby offers, and striving to become a better developer one day at a time. Through simple yet powerful projects, I explore the language’s capabilities, and I’m sharing this learning process with you all.  
+  
 
 ---
 
@@ -17,4 +18,3 @@ Welcome to my Ruby adventure! 🎉 Here, I explore the basics of Ruby programmin
 1. Clone the repo:  
    ```bash
    git clone https://github.com/mefe-b/ruby_steps.git
-   
