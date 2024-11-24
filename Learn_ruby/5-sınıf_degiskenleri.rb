@@ -29,3 +29,4 @@ o1 = Ogrenci.new
 o1.personel_bilgileri("Enes", "Çiğdem", "Öğrenci")
 o1.isim_yazdir
 o1.toplam_personel
+

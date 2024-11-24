@@ -26,3 +26,4 @@ t2.yazdir()  # DegeriBirArttir sınıfı içindeki yazdırma işlemi
 
 $global_degisken = $global_degisken + 1
 puts "en son ki değer: #{$global_degisken}"
+
