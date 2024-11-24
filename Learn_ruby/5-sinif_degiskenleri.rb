@@ -30,3 +30,4 @@ o1.personel_bilgileri("Enes", "Çiğdem", "Öğrenci")
 o1.isim_yazdir
 o1.toplam_personel
 
+# Sınıf değişkenleri tanımlandığı sınıflarda ve bütün alt sınıflarda kullanılabilir.

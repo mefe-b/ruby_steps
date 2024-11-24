@@ -27,3 +27,5 @@ t2.yazdir()  # DegeriBirArttir sınıfı içindeki yazdırma işlemi
 $global_degisken = $global_degisken + 1
 puts "en son ki değer: #{$global_degisken}"
 
+# $ simgesiyle başlar programın hangi aşamasında tanımlandığına bakılmaksızın kullanılabilir özelliğe sahiptir. 
+# GLobal değişkeni değer ataması yapılan satırdan önce kullanırsanız nil değer döndürür.
