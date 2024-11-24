@@ -12,4 +12,6 @@ arr = [1,2,3,4,5]
 puts arr
 print arr
 
-# Print 
+# Print ve puts farkı
+# print ile yazıldığı zaman yan yana yazar
+# puts olduğu zaman ise alt satıra geçerek yazıyor
