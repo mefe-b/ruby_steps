@@ -13,7 +13,7 @@ end
   puts i
 end
 
-#redo komutu 
+#redo komutu Mevcut iterasyonu yeniden çalıştırmak için kullanılır.
 (0..5).each do |i|
   if i > 4 && i < 10
     puts "değer: #{i}"
