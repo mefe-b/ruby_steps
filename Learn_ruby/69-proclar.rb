@@ -25,4 +25,7 @@ puts arr.inspect
 Proc Ruby'de anonim fonksiyonlardır. Bloklardan farkı, bağımsız olarak saklanabilir ve bir değişkende tutulabilirler. 
 "call" metodu ile çağrılırlar. 
 Proc'lar metot dışında da kullanılabilir, bloklar ise yalnızca metot içinde çalıştırılabilir.
+*Proc ile Blok Arasındaki Farklar:*
+Bloklar, yalnızca metot içinde yield anahtar kelimesi ile çalıştırılabilir. Bloklar bir metotla birlikte gelir.
+Proc nesneleri bağımsız olarak oluşturulabilir ve bir değişkende saklanabilir. Metodlar dışında da kullanılabilirler.
 =end
