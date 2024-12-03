@@ -2,7 +2,13 @@ class A
   attr_accessor :arg1
   attr_writer :arg2
   attr_reader :arg3
-  
+
+=begin 
+    !attr_accessor: Hem getter hem de setter metodlarını oluşturur. Bu, genellikle verinin hem okunması hem de değiştirilmesi gerektiğinde kullanılır.
+    !attr_writer: Sadece setter metodu oluşturur. Bu, veriyi değiştirmek için ancak okumamak için kullanılır.
+    !attr_reader: Sadece getter metodu oluşturur. Bu, veriyi okumak için ancak değiştirmemek için kullanılır.
+=end
+
   def initialize(arg4)
     @arg = arg4
   end

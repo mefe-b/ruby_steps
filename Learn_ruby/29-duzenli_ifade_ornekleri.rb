@@ -9,7 +9,6 @@ puts reg1.class, reg2.class, reg3.class
 
 # =~ metodu
 puts /er/ =~ "büyük veri"
-
 puts /Er/ =~ "büyük veri"
 puts /Er/i =~ "büyük veri"
 
