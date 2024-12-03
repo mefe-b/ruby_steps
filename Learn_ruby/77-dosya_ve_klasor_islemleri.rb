@@ -13,7 +13,7 @@ File.open("meyveler.txt", "w") do |f|
   end
 end
 
-# Dosya okuma ve yazma modları açıklaması:
+# Dosya okuma ve yazma modları açıklaması;
 # r : read only - sadece okumak için, dosya mevcut olmalıdır
 # w : write - yazmak için, dosya yoksa oluşturulur
 # a : append - dosyaya ekle, dosya yoksa oluşturulur

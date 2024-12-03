@@ -7,7 +7,7 @@ module Yazici
     end
   end
   
-  def self.versiyon
+  def self.version
     puts "Versiyon #{VERSIYON}"
   end
   

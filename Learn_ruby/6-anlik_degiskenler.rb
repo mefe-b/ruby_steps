@@ -20,4 +20,10 @@ Kamyonet.lastik_ekle()
 Kamyon.kac_lastigi_var?()
 Kamyonet.kac_lastigi_var?()
 
-# Anlık değişkenler sadece üretilen nesne içinde geçerlidir. Değişkene değer atamadan kullanırsanız nil döner.
+=begin
+Sadece tanımlandığı örnek içinde geçerlidir.
+Her sınıf örneği kendi anlık değişkenlerini taşır.
+@ ile başlar.
+Örneğin ömrü boyunca bellekte saklanır.
+Not: Anlık değişkenler sadece üretilen nesne içinde geçerlidir. Değişkene değer atamadan kullanırsanız nil döner.
+=end

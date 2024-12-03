@@ -6,37 +6,37 @@ h.clear()   #=> {}
 h = Hash.new("varsayılan")
 h.default    #=> "varsayılan"
 h[:test]     #=> "varsayılan"
-  
+
 #delete Verilen anahtarın eşleşen değerini siler ve döndürür.
 h = {"a" => 100, "b" => 200}
 h.delete("a")   #=> 100
 h[:a]           #=> nil
-  
+
 #delete_if Verilen koşula uyan tüm anahtar-değer çiftlerini siler.
 h = {"a" => 100, "b" => 200, "c" => 300}
 h.delete_if {|k, v| v < 200}  #=> {"b" => 200, "c" => 300}
-  
+
 #each Hash içindeki tüm anahtarlar üzerinde gezer ve işlem yapabilir.
 h = {"a" => 100, "b" => 200}
 h.each {|k, v| puts "#{k} is #{v}"}
 # a is 100
 # b is 200
-  
+
 #each_key Hash'teki her anahtar-değer çifti üzerinde gezer ve işlem yapılabilir.
 h = {"a" => 100, "b" => 200}
 h.each_key {|key| puts key}
 #a
 #b
-  
+
 #each_value Hash içindeki tüm değerler üzerinde gezer ve işlem yapabilir.
 h = {"a" => 100, "b" => 200}
 h.each_value {|value| puts value}
 #100
 #200
-  
+
 #empty? Hash'in içi boş mu değil mi onu kontrol eder.
 {}.empty?()   #=> true
-  
+
 #eql? İki hashin aynı olup olmadığını kontrol eder.
 h1 = {"a" => 100}
 h2 = {"a" => 100}
@@ -83,11 +83,11 @@ h1.merge!(h2)   #=> {"a" => 100, "b" => 250, "c" => 200}
 #replace Mevcut Hash'i başka bir Hash ile değiştirir.
 h = {"a" => 100, "b" => 200}
 h.replace({"c" => 300, "d" => 400}) #=> {"c" => 300, "d" => 400}
-  
+
 #select! Koşula uyan anahtar-değer çiftlerini seçer, diğerlerini siler.
 h = {"a" => 100, "b" => 200, "c" => 300}
 h.select! {|a,d| a > "a"}   #=> {"b" => 200, "c" => 300}
-  
+
 #shift İki anahtar-değer çiftini kaldırır ve döndürür.
 h = {"a" => 100, "b" => 200}
 h.shift  #=> ["a", 100]
@@ -106,5 +106,4 @@ h.values()   #=> [100,200,300]
 
 #values_at Verilen anahtarlar ile eşleşen değerleri döndürür.
 h = {"kedi" => "miyav", "köpek" => "havhav", "inek" => "mö"}
-h.values_at("inek", "kedi")   #=> ["mö", "miyav]
-
+h.values_at("inek", "köpek")   #=> ["mö", "miyav]

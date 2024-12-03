@@ -21,3 +21,8 @@ x > y unless puts "x değeri y den büyük değildir."
 sayi = 9
 
 sayi%2 == 0 unless puts "sayi değişkeninin değeri tek sayıdır"
+
+=begin
+unless = çalışma mantığı "if" gibidir ama doğru olunca değil yanlış olunca çalışır.
+else = koşul doğruysa bu kısım çalışacak.
+=end

@@ -31,3 +31,9 @@ elsif urun == "kiraz"
 elsif urun == "elma"
   puts "gelen ürün: elma"  
 end
+
+=begin
+if = eğer demek
+elsif = if çalışmıyorsa 2. kez eğer 
+else = if ve elsif eğer yanlışsa else çalışır.
+=end

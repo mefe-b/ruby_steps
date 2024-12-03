@@ -1,28 +1,36 @@
 puts "Lütfen isminizi giriniz:"
-adsoyad = gets.to_s #to_s ifadeyi metne dönüştürür.
+adsoyad = gets.chomp # Kullanıcının ismini al ve gereksiz yeni satırları temizle
 
 puts "Lütfen doğum tarihinizi 'Gün,Ay,Yıl' şeklinde giriniz:"
-girdi = gets.chomp #chomp ifadesi alınan bilgideki fazlalıkları atar
+girdi = gets.chomp # Doğum tarihi girdisini al
 
-gun, ay, yil = girdi.split(",") #virgüle göre değeri ayırmak için
-t = Time.local(yil, ay, gun) #verilen bilgileri tarih şekline çevir
-simdi = Time.now #bugünkü tarih
+# Tarihi gün, ay, yıl olarak ayır
+gun, ay, yil = girdi.split(",").map(&:to_i)
 
-fark = simdi - t #bugünkü tarih ile doğum tarihi arasındaki fark (saniye olarak)
-kac_gun_oldu = (fark/86400).round #bir günde 86400 saniye vardır güne çevirmek için kullandık.
-yas = (kac_gun_oldu/365).round
+# Verilen bilgileri bir tarih nesnesine dönüştür
+dogum_tarihi = Time.local(yil, ay, gun)
 
-case
-when t.sunday?    then gun = "Pazar"
-when t.monday?    then gun = "Pazartesi"
-when t.tuesday?   then gun = "Salı"
-when t.wednesday? then gun = "Çarşamba"
-when t.thursday?  then gun = "Perşembe"
-when t.friday?    then gun = "Cuma"
-when t.saturday?  then gun = "Cumartesi"
-else                   gun = "Uzaylı"
-end
+# Bugünkü tarihi al
+simdi = Time.now
 
-puts "Merhaba #{adsoyad}"
+# Doğum tarihinden itibaren geçen süreyi hesapla
+fark = simdi - dogum_tarihi # saniye olarak fark
+kac_gun_oldu = (fark / 86400).to_i # gün sayısını hesapla
+yas = (kac_gun_oldu / 365.25).to_i # yıl (yaş) hesapla, artık yılları dikkate al
+
+# Doğulan gün ismini bul
+dogulan_gun = case dogum_tarihi.wday
+              when 0 then "Pazar"
+              when 1 then "Pazartesi"
+              when 2 then "Salı"
+              when 3 then "Çarşamba"
+              when 4 then "Perşembe"
+              when 5 then "Cuma"
+              when 6 then "Cumartesi"
+              else "Bilinmeyen Gün"
+              end
+
+# Çıktılar
+puts "Merhaba #{adsoyad},"
 puts "Sen doğalı tam #{kac_gun_oldu} gün geçti."
-puts "Yaşın şuan #{yas} ve #{gun} günü doğdun."
+puts "Yaşın şu an #{yas} ve #{dogulan_gun} günü doğdun."

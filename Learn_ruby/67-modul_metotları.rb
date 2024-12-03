@@ -15,16 +15,14 @@ end
 puts Admin.const_defined?(:User)
 puts Math.const_defined?(:PI)
 
-#const_get metodu, belirtlilen sabirin değerini döndürür.
+#const_get metodu, belirtlilen sabitin değerini döndürür.
 puts Math.const_get(:PI)
 
 #const_set metodu, bir sabitin değerini belirler. Sabitler genellikle değiştirilemezler, ancak bu metodla değer ataması yapılabilir.
 Math.const_set("HIGH_SCHOOL_PI", 22.0/7.0)
 puts Math::HIGH_SCHOOL_PI - Math::PI
 
-#constants metodu, modül veya sınıf içinde tanımlanmış olan sabitlerin adlarını bir dizi olarak döndürür.
-ruby
-Kodu kopyala
+#constants metodu, modül veya sınıf içinde tanımlanmış olan, sabitlerin adlarını bir dizi olarak döndürür.
 
 puts Math.constants()
 
@@ -41,7 +39,7 @@ puts B.include?(A)
 puts C.include?(A)
 puts A.include?(A)
 
-#included_modulesmetodu, bir sınıfın veya modülün dahil ettiği modülleri döndürür.
+#included_modules metodu, bir sınıfın veya modülün dahil ettiği modülleri döndürür.
 module Modul5
 end
 

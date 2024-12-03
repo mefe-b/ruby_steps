@@ -1,40 +1,40 @@
 a = 6
 b = 2
 
-# + : Toplama operatörü
+# "+" Toplama operatörü
 puts a + b
 puts "merhaba " + "ali"
 
-# - : Çıkarma operatörü
+# "-" Çıkarma operatörü
 puts a - b
 
-# * : Çarpma operatörü
+# "*" Çarpma operatörü
 puts a * b
 
-# / : Bölme operatörü
+# "/" Bölme operatörü
 puts a / b
 puts 2/2.0
 
-# .div() : Tamsayı bölme operatörü
+# ".div()" Tamsayı bölme operatörü
 puts 5.div(2)
 
-# .fdiv() : Ondalık sayı bölme operatörü
+# ".fdiv()" Ondalık sayı bölme operatörü
 puts 5.fdiv(2)
 
-# ** : üs alma operatörü
+# "**" üs alma operatörü
 puts a**2
 
-# % : mod alma operatörü
+# "%" mod alma operatörü
 puts a % b
 
-# .modulo() : mod alma
+# ".modulo()" mod alma
 puts a.modulo(b)
 
-# .remainder() : bölme işleminden kalanı verir.
+# ".remainder()" bölme işleminden kalanı verir.
 puts a.remainder(b)
 
-# .divmod() : bölüm ve kalanı array olarak verir.
+# ".divmod()" bölüm ve kalanı array olarak verir.
 puts "[Bölüm, Kalan] - #{a.divmod(b)}"
 
-# .quo() : bölümü verir.
+# ".quo()" bölümü verir.
 puts a.quo(b)

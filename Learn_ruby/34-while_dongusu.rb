@@ -4,3 +4,4 @@ while i < 10 do
   puts i
   i += 1
 end
+# Koşul doğru olduğu sürece çalışır. 

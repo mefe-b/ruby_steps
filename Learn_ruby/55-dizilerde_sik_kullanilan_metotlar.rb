@@ -6,7 +6,7 @@ arr.at(-1) # => "d"
 #clear Diziyi tamamen temizler boş bir dizi haline getirir.
 arr.clear  # => []
 
-#collect! Tüm elemanlar üzerinde şlem yapar ve orijinal diziyi günceller.
+#collect! Tüm elemanlar üzerinde şlem yapar ve orijinal diziyi günceller. "map!" aynı işlevi yapar.
 arr.collect! {|x| x+"!"} # => ["a!", "b!", "c!", "d!"]
 
 #combination Belirtilen uzunlukta kombinasyonları döndürür.

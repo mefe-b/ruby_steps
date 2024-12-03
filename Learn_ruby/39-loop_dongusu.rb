@@ -5,3 +5,4 @@ loop do
   i += 1
   break if i > 10000
 end
+# Sonsuz bir döngü oluşturmak.

@@ -13,5 +13,5 @@ puts arr
 print arr
 
 # Print ve puts farkı
-# print ile yazıldığı zaman yan yana yazar
-# puts olduğu zaman ise alt satıra geçerek yazıyor
+# print ile yazıldığı zaman yan yana ve bitişik yazar.
+# puts olduğu zaman ise alt satıra geçerek yazıyor.

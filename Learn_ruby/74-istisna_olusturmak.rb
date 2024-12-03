@@ -6,7 +6,7 @@ def islem(x, y)
   end
 end
 
-# islem(1, 2)
+#islem(1, 2)
 
 class HataSinifim < TypeError
   def message
@@ -22,7 +22,7 @@ def topla(x, y)
   end
 end
 
-# topla(1, "a")
+#topla(1, "a")
 
 module Istisnalar
   class Tip < TypeError

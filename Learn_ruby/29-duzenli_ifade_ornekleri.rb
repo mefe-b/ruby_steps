@@ -14,15 +14,15 @@ puts /Er/ =~ "büyük veri"
 puts /Er/i =~ "büyük veri"
 
 <<-DUZENLI_IFADELER
-  [a-z]: a'dan z'ye kadar tüm küçük harfleri belirtir.
-  [A-Z]: A'dan Z'ye kadar tüm büyük harfleri belirtir.
-  "."  : Herhangi bir karakteri temsil eder.
-  "+"  : Kendinden önce gelen ifadenin veya karakterin bir
-        veya daha fazla kullanımına eşlenir. Örnek olarak
-        "9+" ifadesi 9 ile 99 ile veya 999 ile eşlenir.
-  "?"  : Kendinden önce gelen karakterin 0 veya 1 kez tekrarını belirtir.
-  "[]" : Köşeli parantezler içine girilen bütün karakterlere eşlenir.
-        Örnek olarak "d[ea]neme" ifadesi "deneme" veya "daneme" ile eşlenir.
+[a-z]: a'dan z'ye kadar tüm küçük harfleri belirtir.
+[A-Z]: A'dan Z'ye kadar tüm büyük harfleri belirtir.
+"."  : Herhangi bir karakteri temsil eder.
+"+"  : Kendinden önce gelen ifadenin veya karakterin bir
+      veya daha fazla kullanımına eşlenir. Örnek olarak
+      "9+" ifadesi 9 ile 99 ile veya 999 ile eşlenir.
+"?"  : Kendinden önce gelen karakterin 0 veya 1 kez tekrarını belirtir.
+"[]" : Köşeli parantezler içine girilen bütün karakterlere eşlenir.
+      Örnek olarak "d[ea]neme" ifadesi "deneme" veya "daneme" ile eşlenir.
 DUZENLI_IFADELER
 
 puts "Yukihiro Matsumoto".match(/[abr].+[klm]/)

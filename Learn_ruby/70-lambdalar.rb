@@ -1,6 +1,6 @@
 lamb = lambda {} #yazım şekli 1
 lamb = ->(){}    #yazım şekli 2
-  
+
 carp = ->(e1, e2) {e1*e2}
 
 puts carp.call 3,5
@@ -20,10 +20,9 @@ def metot2
 end
 
 puts metot1, metot2
-
 =begin
-lambda, Ruby'de anonim fonksiyonlardır ve Proc'lara benzer, ancak birkaç farkı vardır:
-Return: lambda içindeki return sadece lambda'yı bitirir, metodu bitirmez. Proc'ta ise return metodu da sonlandırır.
-Parametre: lambda, belirtilen parametre sayısına sıkı sıkıya bağlıdır; eksik parametre verilirse hata alırsınız.
+Lambda, Ruby'de anonim fonksiyonlardır ve Proc'lara benzer, ancak birkaç farkı vardır:
+Lambda içindeki return sadece lambda'yı bitirir, metodu bitirmez. Proc'ta ise return metodu da sonlandırır.
+Lambda, belirtilen parametre sayısına sıkı sıkıya bağlıdır; eksik parametre verilirse hata alırsınız.
 Proc ise eksik parametreyle çalışabilir.
 =end

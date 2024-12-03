@@ -3,7 +3,7 @@ module Hayvanlar
 end
 
 class Kedi 
-  include Hayvanlar #(mixin) Modül sınıfına ekleniyor
+  include Hayvanlar #(mixin) Modül sınıfına ekleniyor.
 end
 
 module Yazici

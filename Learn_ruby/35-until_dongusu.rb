@@ -32,3 +32,4 @@ until tahmin_hakki < 1 do
   #tahmin hakkını bir azalt
   tahmin_hakki -= 1
 end
+# Koşul yanlış olduğu sürece çalışır.

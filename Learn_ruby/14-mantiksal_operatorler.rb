@@ -3,28 +3,28 @@ b = false
 
 puts a and b
 
-# or : veya operatörü
+# "or" veya operatörü
 a = true
 b = false
 
 puts a or b
 
-# && : and operatörü
+# "&&" and operatörü
 a = false
 b = true
 
 puts a && b
 
-# || : veya operatörü
+# "||" veya operatörü
 a = false
 b = true
 
 puts a || b
 
-# ! : tersi operatörü
+# "!" tersi operatörü
 a = false
 puts !a
 
-# not : tersi operatörü
+# "not" tersi operatörü
 a = false
 puts (not a)

@@ -44,3 +44,10 @@ when "Türkiye"
   when "Rusya"
     puts "http://ru.orneksite.com"    
 end
+
+=begin
+case değişken
+when değer1 # Eğer değişken değer1'e eşitse burası çalışır
+when değer2 # Eğer değişken değer2'ye eşitse burası çalışır
+else # Hiçbir koşul sağlanmazsa burası çalışır
+=end

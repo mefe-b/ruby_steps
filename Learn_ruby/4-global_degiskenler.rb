@@ -14,7 +14,7 @@ end
 class DegeriBirArttir
   def yazdir 
     $global_degisken = $global_degisken + 1
-    puts "değer bir arttırıldıktan sonra: #{$global_degisken}"
+    puts "Değer bir arttırıldıktan sonra: #{$global_degisken}"
   end
 end
 
@@ -27,5 +27,11 @@ t2.yazdir()  # DegeriBirArttir sınıfı içindeki yazdırma işlemi
 $global_degisken = $global_degisken + 1
 puts "en son ki değer: #{$global_degisken}"
 
-# $ simgesiyle başlar programın hangi aşamasında tanımlandığına bakılmaksızın kullanılabilir özelliğe sahiptir. 
-# GLobal değişkeni değer ataması yapılan satırdan önce kullanırsanız nil değer döndürür.
+=begin
+Global Değişkenlerinin Özellikleri:
+Programın her yerinden erişilebilir.
+Tüm kod boyunca her yerden değiştirilebilir (buna dikkat edilmeli).
+$ ile başlar.
+Yanlışlıkla değiştirilirse, programın farklı yerlerinde beklenmeyen davranışlara neden olabilir.
+=end
+

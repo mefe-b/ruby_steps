@@ -105,7 +105,6 @@ ege = Personel.new do |p|
 end
 
 puts ege.inspect
-
 =begin
 Bloklar, Ruby'de metotlara parametre olarak verilen anonim fonksiyonlardır. 
 "yield" komutu, metot içinde blok kodunu çalıştırır. 

@@ -1,5 +1,4 @@
 #print String.methods
-
 m = "m" * 4
 puts m
 
@@ -37,7 +36,7 @@ puts m.downcase() #m.upcase büyük harfe çevirir/ m.downcase küçük harfe ç
 
 m = "merhaba"
 m.each_char{|k| print k, "-"} # String'deki her bir karakteri döngüyle işleyerek bir işlem yapmanızı sağlar.
-  
+
 puts m.empty?() # Stringin boş olup olmadığını kontrol eder.
 
 m = "merhaba"

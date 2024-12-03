@@ -5,7 +5,7 @@ class Bilgisayar
   end
 
   def numerik_klavye?
-    puts "Numerik klavye var mı?" # burada sormasını istemiştik normalde sorması gerekir fakat 19. satırd ayaptığımız tanımlama bastırdı.
+    puts "Numerik klavye var mı?" # burada sormasını istemiştik normalde sorması gerekir fakat 19. satırda ayaptığımız tanımlama bastırdı.
   end
 
   def tipi

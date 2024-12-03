@@ -30,4 +30,10 @@ o1.personel_bilgileri("Enes", "Çiğdem", "Öğrenci")
 o1.isim_yazdir
 o1.toplam_personel
 
-# Sınıf değişkenleri tanımlandığı sınıflarda ve bütün alt sınıflarda kullanılabilir.
+=begin
+Sınıf Değişkenlerinin Özellikleri:
+Sınıfın tamamında geçerlidir.
+Aynı sınıfın tüm örnekleri arasında paylaşılır. 
+Sınıf ve alt sınıfları üzerinde etkili olabilir, ancak dikkatli kullanılmalıdır çünkü karmaşık yapılar oluşturabilir.
+@@ ile başlar.
+=end
